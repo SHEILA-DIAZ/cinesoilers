@@ -1,47 +1,75 @@
+import MovieCard from '@/components/MovieCard';
+
+const movies = [
+  {
+    id: 1,
+    title: 'Interstellar',
+    price: 45,
+    image:
+      'https://picsum.photos/300/400?random=1',
+  },
+  {
+    id: 2,
+    title: 'Batman',
+    price: 50,
+    image:
+      'https://picsum.photos/300/400?random=2',
+  },
+  {
+    id: 3,
+    title: 'Inception',
+    price: 55,
+    image:
+      'https://picsum.photos/300/400?random=3',
+  },
+];
+
 function HomePage() {
   return (
     <section
       style={{
-        minHeight: '80vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        textAlign: 'center',
-        gap: '1.5rem',
+        padding: '2rem 0',
       }}
     >
-      <h1
+      <div
         style={{
-          fontSize: '4rem',
+          textAlign: 'center',
+          marginBottom: '3rem',
         }}
       >
-        CineSoilerS
-      </h1>
+        <h1
+          style={{
+            fontSize: '4rem',
+            marginBottom: '1rem',
+          }}
+        >
+          CineSoilerS
+        </h1>
 
-      <p
-        style={{
-          fontSize: '1.2rem',
-          maxWidth: '600px',
-          color: '#d1d5db',
-        }}
-      >
-        Descubre las mejores películas, colecciones y experiencias
-        cinematográficas desde un solo lugar.
-      </p>
+        <p
+          style={{
+            color: '#d1d5db',
+          }}
+        >
+          Las mejores películas en un solo lugar.
+        </p>
+      </div>
 
-      <button
+      <div
         style={{
-          padding: '1rem 2rem',
-          border: 'none',
-          borderRadius: '8px',
-          backgroundColor: '#2563eb',
-          color: 'white',
-          fontSize: '1rem',
+          display: 'grid',
+          gridTemplateColumns:
+            'repeat(auto-fit, minmax(250px, 1fr))',
+          gap: '2rem',
         }}
       >
-        Explorar películas
-      </button>
+        {movies.map((movie) => (
+          <MovieCard
+            key={movie.id}
+            movie={movie}
+          />
+        ))}
+      </div>
     </section>
   );
 }
