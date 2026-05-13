@@ -1,5 +1,14 @@
+import ProductCard from '../components/ProductCard'
+import { products } from '../services/products'
+
 function CatalogPage() {
-  return <h2>Catálogo</h2>
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {products.map((product) => (
+        <ProductCard key={product.id} product={product} />
+      ))}
+    </div>
+  )
 }
 
 export default CatalogPage
