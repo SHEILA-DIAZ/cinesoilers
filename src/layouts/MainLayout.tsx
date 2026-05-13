@@ -1,14 +1,20 @@
 import { Outlet } from 'react-router-dom';
 
+import Navbar from '@/components/Navbar';
+
 function MainLayout() {
   return (
-    <main>
-      <header>
-        <h2>CineSoilerS</h2>
-      </header>
+    <>
+      <Navbar />
 
-      <Outlet />
-    </main>
+      <main
+        style={{
+          padding: '2rem',
+        }}
+      >
+        <Outlet />
+      </main>
+    </>
   );
 }
 
