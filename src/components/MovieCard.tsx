@@ -2,9 +2,13 @@ import type { Movie } from '@/types/Movie';
 
 interface Props {
   movie: Movie;
+  onAddToCart: () => void;
 }
 
-function MovieCard({ movie }: Props) {
+function MovieCard({
+  movie,
+  onAddToCart,
+}: Props) {
   return (
     <article
       style={{
@@ -36,6 +40,7 @@ function MovieCard({ movie }: Props) {
       </p>
 
       <button
+        onClick={onAddToCart}
         style={{
           width: '100%',
           padding: '0.8rem',

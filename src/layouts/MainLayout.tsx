@@ -2,10 +2,14 @@ import { Outlet } from 'react-router-dom';
 
 import Navbar from '@/components/Navbar';
 
-function MainLayout() {
+interface Props {
+  cartCount: number;
+}
+
+function MainLayout({ cartCount }: Props) {
   return (
     <>
-      <Navbar />
+      <Navbar cartCount={cartCount} />
 
       <main
         style={{

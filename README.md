@@ -1,73 +1,72 @@
-# React + TypeScript + Vite
+# CineSoilerS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineSoilerS es una aplicación e-commerce desarrollada con React, TypeScript y Vite.
 
-Currently, two official plugins are available:
+El proyecto fue creado como base escalable para una tienda online de películas y entretenimiento, aplicando buenas prácticas de desarrollo frontend moderno.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* TypeScript
+* Vite
+* React Router DOM
+* Git
+* GitHub
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Características
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* Arquitectura escalable
+* Componentes reutilizables
+* Navegación SPA
+* Diseño responsive
+* Navbar dinámico
+* Cards de películas
+* Tipado fuerte con TypeScript
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Capturas del proyecto
+
+## Inicio del proyecto
+
+![Inicio](./screenshots/inicio-proyecto.png)
+
+---
+
+## Home principal
+
+![Home](./screenshots/home-principal.png)
+
+---
+
+## Movie Cards
+
+![Movie Cards](./screenshots/movie-cards.png)
+
+---
+
+# Instalación del proyecto
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Ejecutar proyecto
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
 ```
+
+---
+
+# Repositorio
+
+Repositorio oficial:
+
+[https://github.com/SHEILA-DIAZ/cinesoilers](https://github.com/SHEILA-DIAZ/cinesoilers)
