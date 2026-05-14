@@ -1,72 +1,32 @@
-# CineSoilerS
+# 🎬 CineSoilerS
+Aplicación e-commerce de películas desarrollada con React, TypeScript y Vite. Permite explorar películas, agregarlas al carrito y realizar pagos mediante una pasarela integrada. Base escalable con las mejores convenciones de proyectos React modernos.
 
-CineSoilerS es una aplicación e-commerce desarrollada con React, TypeScript y Vite.
+## Evidencias - Sheila Diaz
 
-El proyecto fue creado como base escalable para una tienda online de películas y entretenimiento, aplicando buenas prácticas de desarrollo frontend moderno.
+### 🟢 Inicio del proyecto
+Se creó el proyecto con Vite + React + TypeScript, se limpió el template por defecto y se dejó la estructura lista para crecer.
+![Inicio del proyecto](screenshots/01-inicio-proyecto.png)
 
----
+### 🏠 Título inicial de la app
+Primera prueba del nombre de la aplicación renderizado en el navegador.
+![Título CineSoilerS](screenshots/02.png)
 
-# Tecnologías utilizadas
+### 🧱 Estructura del proyecto en VS Code
+Se organizaron las carpetas por responsabilidad: `components`, `hooks`, `layouts`, `pages`, `routes`, `services`, `styles`, `types` y `utils`.
+![Estructura del proyecto](screenshots/03.png)
 
-* React
-* TypeScript
-* Vite
-* React Router DOM
-* Git
-* GitHub
+### 🌟 Home principal con hero section
+Se implementó la página principal con título, descripción y botón de llamada a la acción, usando flexbox y estilos inline con fondo oscuro.
+![Home principal](screenshots/04.png)
 
----
+### 🎬 Hero con botón Explorar películas
+Se añadió el botón "Explorar películas" con estilos y navegación básica hacia el catálogo.
+![Hero section](screenshots/05.png)
 
-# Características
+### 🃏 Movie Cards con catálogo de películas
+Se crearon cards dinámicas con imagen, título, precio en soles y botón de compra. Se tipó el modelo `Movie` con TypeScript.
+![Movie Cards](screenshots/06.png)
 
-* Arquitectura escalable
-* Componentes reutilizables
-* Navegación SPA
-* Diseño responsive
-* Navbar dinámico
-* Cards de películas
-* Tipado fuerte con TypeScript
-
----
-
-# Capturas del proyecto
-
-## Inicio del proyecto
-
-![Inicio](./screenshots/inicio-proyecto.png)
-
----
-
-## Home principal
-
-![Home](./screenshots/home-principal.png)
-
----
-
-## Movie Cards
-
-![Movie Cards](./screenshots/movie-cards.png)
-
----
-
-# Instalación del proyecto
-
-```bash
-npm install
-```
-
----
-
-# Ejecutar proyecto
-
-```bash
-npm run dev
-```
-
----
-
-# Repositorio
-
-Repositorio oficial:
-
-[https://github.com/SHEILA-DIAZ/cinesoilers](https://github.com/SHEILA-DIAZ/cinesoilers)
+### ⚙️ App en ejecución
+Se validó el funcionamiento completo con `npm run dev`, Vite corriendo en `localhost:5174` y la estructura final del proyecto lista.
+![App corriendo](screenshots/07.png)
