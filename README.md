@@ -11,13 +11,14 @@ Se creó el proyecto con Vite + React + TypeScript, se limpió el template por d
 Primera prueba del nombre de la aplicación renderizado en el navegador.
 ![Título CineSoilerS](screenshots/02.png)
 
-### 🧱 Estructura del proyecto en VS Code
-Se organizaron las carpetas por responsabilidad: `components`, `hooks`, `layouts`, `pages`, `routes`, `services`, `styles`, `types` y `utils`.
-![Estructura del proyecto](screenshots/03.png)
+### 🏠 Home principal con navbar
+Se implementó el layout principal con navbar que incluye el nombre de la app y enlace Home, mostrando el mensaje de bienvenida.
+![Home principal](screenshots/03.png)
 
-### 🌟 Home principal con hero section
-Se implementó la página principal con título, descripción y botón de llamada a la acción, usando flexbox y estilos inline con fondo oscuro.
-![Home principal](screenshots/04.png)
+
+### 🧱 Estructura del proyecto en VS Code
+Se organizaron las carpetas por responsabilidad: `components`, `hooks`, `layouts`, `pages`, `routes`, `services`, `styles`, `types` y `utils`. Se muestra el archivo `main.tsx` con la configuración inicial de React.
+![Estructura del proyecto](screenshots/04.png)
 
 ### 🎬 Hero con botón Explorar películas
 Se añadió el botón "Explorar películas" con estilos y navegación básica hacia el catálogo.
