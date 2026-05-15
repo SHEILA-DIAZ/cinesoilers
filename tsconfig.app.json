@@ -26,7 +26,11 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]
+<<<<<<< HEAD
   
 }
 
 
+=======
+}
+>>>>>>> feature/evidencias-naomi
