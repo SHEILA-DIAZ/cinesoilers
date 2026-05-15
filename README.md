@@ -1,4 +1,4 @@
-# 🎬 CineSoilerS
+# 🎬 CineSpoilerS
 Aplicación e-commerce de películas desarrollada con React, TypeScript y Vite. Permite explorar películas, agregarlas al carrito y realizar pagos mediante una pasarela integrada. Base escalable con las mejores convenciones de proyectos React modernos.
 
 
@@ -174,7 +174,3 @@ Actualmente mi proyecto cuenta con:
 - Panel administrativo
 
 ---
-
-## Autor
-
-Desarrollado por Naomi Sánchez como avance del proyecto CineSpoilerS.
