@@ -37,8 +37,8 @@ Implementar la estructura inicial del frontend del proyecto:
 
 Inicialización del proyecto con React + TypeScript y verificación del servidor local.
 
-![Paso 1](evidencias\evidencia1.png)
-![Paso 1](evidencias\vite-corriendo.png)
+![Paso 1](./evidencias/evidencia1.png)
+![Vite corriendo](./evidencias/vite-corriendo.png)
 
 ---
 
@@ -46,7 +46,7 @@ Inicialización del proyecto con React + TypeScript y verificación del servidor
 
 Inicialización del Proyecto desde la terminal
 
-![Paso 2](evidencias\evidencia2.png)
+![Paso 2](./evidencias/evidencia2.png)
 
 ---
 
@@ -54,7 +54,8 @@ Inicialización del Proyecto desde la terminal
 
 CineSpoilers
 
-![Paso 3](evidencias\evidencia3.png)
+![Paso 3](./evidencias/evidencia3.png)
+
 
 ---
 
@@ -62,7 +63,7 @@ CineSpoilers
 
 Código y estructura completa de archivos
 
-![Paso 4](evidencias\evidencia4.png)
+![Paso 4](./evidencias/evidencia4.png)
 
 ---
 
@@ -70,7 +71,8 @@ Código y estructura completa de archivos
 
 Inicialización de las pruebas desde el localhost 
 
-![Paso 5](evidencias\evidencia5.png)
+
+![Paso 5](./evidencias/evidencia5.png)
 
 ---
 
@@ -78,22 +80,22 @@ Inicialización de las pruebas desde el localhost
 
 Implementación de la página principal del sistema.
 
-![Paso 6](evidencias\evidencia6.png)
-
+![Paso 6](./evidencias/evidencia6.png)
 ---
 
 ### 7. Segunda Ejecución
 
 Pruebas en el locahost1
 
-![Paso 7](evidencias\evidencia7.png)
+![Paso 7](./evidencias/evidencia7.png)
+
 
 ---
 
 ### 8. Tercera Ejecución
 Pruebas en el locahost2
 
-![Paso 8](evidencias\evidencia8.png)
+![Paso 8](./evidencias/evidencia8.png)
 
 ---
 
@@ -101,7 +103,7 @@ Pruebas en el locahost2
 
 Vista funcional de Inicio
 
-![Paso 9](evidencias\evidencia9.png)
+![Paso 9](./evidencias/evidencia9.png)
 
 ---
 
@@ -109,7 +111,7 @@ Vista funcional de Inicio
 
 Vista funcional del catalago
 
-![Paso 10](evidencias\evidencia10.png)
+![Paso 10](./evidencias/evidencia10.png)
 
 ---
 
@@ -117,7 +119,7 @@ Vista funcional del catalago
 
 Vista funcional del carrito
 
-![Paso 11](evidencias\evidencia11.png)
+![Paso 11](./evidencias/evidencia11.png)
 
 ---
 
