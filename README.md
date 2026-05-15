@@ -1,6 +1,33 @@
 # 🎬 CineSoilerS
 Aplicación e-commerce de películas desarrollada con React, TypeScript y Vite. Permite explorar películas, agregarlas al carrito y realizar pagos mediante una pasarela integrada. Base escalable con las mejores convenciones de proyectos React modernos.
 
+
+## Tecnologías utilizadas
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Axios
+- Git / GitHub
+
+---
+
+## Objetivo del avance
+
+Implementar la estructura inicial del frontend del proyecto:
+
+- Configuración del entorno de desarrollo
+- Inicialización del proyecto React
+- Organización de carpetas
+- Navegación con rutas
+- Catálogo de productos
+- Carrito de compras básico
+- Gestión de versiones en rama personal
+
+---
+
 ## Evidencias - Sheila Diaz
 
 ### 🟢 Inicio del proyecto
@@ -31,40 +58,9 @@ Se crearon cards dinámicas con imagen, título, precio en soles y botón de com
 ### ⚙️ App en ejecución
 Se validó el funcionamiento completo con `npm run dev`, Vite corriendo en `localhost:5174` y la estructura final del proyecto lista.
 ![App corriendo](screenshots/07.png)
-# CineSpoilerS 🎬🛒
 
-Proyecto frontend desarrollado con React + Vite + TypeScript para una plataforma e-commerce básica orientada a productos relacionados con cine.  
-Esta primera versión establece la base para futuras funcionalidades como autenticación, integración de pasarela de pagos y escalabilidad del catálogo.
 
----
-
-## Tecnologías utilizadas
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router DOM
-- Axios
-- Git / GitHub
-
----
-
-## Objetivo del avance
-
-Implementar la estructura inicial del frontend del proyecto:
-
-- Configuración del entorno de desarrollo
-- Inicialización del proyecto React
-- Organización de carpetas
-- Navegación con rutas
-- Catálogo de productos
-- Carrito de compras básico
-- Gestión de versiones en rama personal
-
----
-
-## Desarrollo paso a paso
+## Evidencias de Naomi Sanchez
 
 ### 1. Creación del proyecto base con Vite
 
@@ -158,7 +154,7 @@ Vista funcional del carrito
 
 ## Estado actual
 
-Actualmente el proyecto cuenta con:
+Actualmente mi proyecto cuenta con:
 
 ✅ Navegación entre páginas  
 ✅ Catálogo inicial  
