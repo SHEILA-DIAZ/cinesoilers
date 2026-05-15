@@ -1,73 +1,149 @@
-# React + TypeScript + Vite
+# CineSpoilerS 🎬🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto frontend desarrollado con React + Vite + TypeScript para una plataforma e-commerce básica orientada a productos relacionados con cine.  
+Esta primera versión establece la base para futuras funcionalidades como autenticación, integración de pasarela de pagos y escalabilidad del catálogo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Axios
+- Git / GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Objetivo del avance
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Implementar la estructura inicial del frontend del proyecto:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Configuración del entorno de desarrollo
+- Inicialización del proyecto React
+- Organización de carpetas
+- Navegación con rutas
+- Catálogo de productos
+- Carrito de compras básico
+- Gestión de versiones en rama personal
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Desarrollo paso a paso
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 1. Creación del proyecto base con Vite
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Inicialización del proyecto con React + TypeScript y verificación del servidor local.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+![Paso 1](evidencias\evidencia1.png)
+![Paso 1](evidencias\vite-corriendo.png)
+
+---
+
+### 2. Limpieza del proyecto inicial
+
+Inicialización del Proyecto desde la terminal
+
+![Paso 2](evidencias\evidencia2.png)
+
+---
+
+### 3. Primera Ejecución 
+
+CineSpoilers
+
+![Paso 3](evidencias\evidencia3.png)
+
+---
+
+### 4. Código y estructura completa de archivos
+
+Código y estructura completa de archivos
+
+![Paso 4](evidencias\evidencia4.png)
+
+---
+
+### 5. Inicialización de las pruebas desde el localhost 
+
+Inicialización de las pruebas desde el localhost 
+
+![Paso 5](evidencias\evidencia5.png)
+
+---
+
+### 6. Primera pantalla Home
+
+Implementación de la página principal del sistema.
+
+![Paso 6](evidencias\evidencia6.png)
+
+---
+
+### 7. Segunda Ejecución
+
+Pruebas en el locahost1
+
+![Paso 7](evidencias\evidencia7.png)
+
+---
+
+### 8. Tercera Ejecución
+Pruebas en el locahost2
+
+![Paso 8](evidencias\evidencia8.png)
+
+---
+
+### 9. Implementación Final de Inicio
+
+Vista funcional de Inicio
+
+![Paso 9](evidencias\evidencia9.png)
+
+---
+
+### 10. Implementación Final del Catalago
+
+Vista funcional del catalago
+
+![Paso 10](evidencias\evidencia10.png)
+
+---
+
+### 11. Implementación Final del Carrito
+
+Vista funcional del carrito
+
+![Paso 11](evidencias\evidencia11.png)
+
+---
+
+## Estado actual
+
+Actualmente el proyecto cuenta con:
+
+✅ Navegación entre páginas  
+✅ Catálogo inicial  
+✅ Carrito funcional  
+✅ Estructura escalable  
+✅ Base lista para integración de pagos  
+
+---
+
+## Próximas mejoras
+
+- Integración con API backend
+- Pasarela de pagos
+- Autenticación de usuarios
+- Persistencia del carrito
+- Diseño responsive completo
+- Panel administrativo
+
+---
+
+## Autor
+
+Desarrollado por Naomi Sánchez como avance del proyecto CineSpoilerS.
